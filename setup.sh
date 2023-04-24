@@ -14,10 +14,10 @@ echo \$WALLY set to ${WALLY}
 
 # License servers and commercial CAD tool paths
 # Must edit these based on your local environment.  Ask your sysadmin.
-export MGLS_LICENSE_FILE=27002@zircon.eng.hmc.edu                   # Change this to your Siemens license server
-export SNPSLMD_LICENSE_FILE=27020@zircon.eng.hmc.edu                # Change this to your Synopsys license server
-export QUESTA_HOME=/cad/mentor/questa_sim-2022.4_2/questasim        # Change this for your path to Questa, excluding bin
-export SNPS_HOME=/cad/synopsys/SYN                                  # Change this for your path to Design Compiler, excluding bin
+#export MGLS_LICENSE_FILE=27002@zircon.eng.hmc.edu                   # Change this to your Siemens license server
+#export SNPSLMD_LICENSE_FILE=27020@zircon.eng.hmc.edu                # Change this to your Synopsys license server
+#export QUESTA_HOME=/cad/mentor/questa_sim-2022.4_2/questasim        # Change this for your path to Questa, excluding bin
+#export SNPS_HOME=/cad/synopsys/SYN                                  # Change this for your path to Design Compiler, excluding bin
 
 # Path to RISC-V Tools
 export RISCV=/opt/riscv   # change this if you installed the tools in a different location
