@@ -39,8 +39,8 @@ main:
     # fmv.x.h and fmv.h.x Testing
     la t1, TestData1
     flw ft0, 16(t1)
-    fmv.h.x x0, ft0
-    fmh.x.h ft1, x0
+    fmv.x.h ft0, x1
+    fmv.h.x x0, ft1
 
     #Result Sign Test Coverage
     la t0, TestData2
